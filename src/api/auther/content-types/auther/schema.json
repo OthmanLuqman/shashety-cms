@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authers",
+  "info": {
+    "singularName": "auther",
+    "pluralName": "authers",
+    "displayName": "auther",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}
